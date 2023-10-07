@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int n,m ;
+    int a,b;
     float avg;
-    scanf("%d%d",&n,&m);
-    avg=(n+m)/2.0;
+    scanf("%d%d",&a,&b);
+    avg=((a+b)/2.0);
     printf("%.4f",avg);
 }
